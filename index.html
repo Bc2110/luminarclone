@@ -159,9 +159,29 @@
             font-size: 45px;
         }
 
-        nav a:hover {
-            color: darkmagenta;
+
+/* nav bar  */
+        .nav-link{
+            padding-bottom: .02em;
+  background: var(--c), var(--c);
+  background-size: .2em .1em;
+  background-position:50% 100%;
+  background-repeat: no-repeat;
+  transition: .3s linear, background-size .3s .1s linear;
         }
+        .nav-link:hover {
+            background-size: 85% 0.1em; /* Adjusted the background-size */
+  background-position: 50% 100%;
+  --c:linear-gradient( rgb(124, 37, 124) 0 0);
+        }
+.coursed{
+    background-size: 85% 0.1em; /* Adjusted the background-size */
+  background-position: 50% 100%;
+  --c:linear-gradient( rgb(124, 37, 124) 0 0);
+}
+
+
+
 
         nav img {
             margin-left: 90px;
@@ -252,7 +272,7 @@
                         <a class="nav-link " aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a style="color:darkmagenta ;" class="nav-link" href="#">Courses</a>
+                        <a style="color:darkmagenta ;" class="nav-link coursed" href="#">Courses</a>
                     </li>
 
                     <li class="nav-item">
@@ -383,7 +403,7 @@
                                 (Offline
                                 &amp;
                                 Online)<br><span class="sub-date-courseList">Calicut : </span>Not Available<span
-                                    class="training-program-card-title"><br> Duration:</span>6 Months, 5 Days a Week,
+                                    class="training-program-card-title"><br> Duration:</span><br>6 Months, 5 Days a Week,
                                 1.5 - 2 Hours/day<span class="training-program-card-title"><br> Course Fee:
                                     <br></span> <span class="sub-date-courseList">Fees (EMI Mode) :
                                 </span>61000<br><span class="sub-date-courseList">Fees (One time Payment mode) :
@@ -400,7 +420,7 @@
                                 class="training-program-card-circle rounded-circle text-center"><img class="card-imag "
                                     src="https://luminartechnolabbucket.s3.ap-south-1.amazonaws.com/c678b72e-d125-46c0-8598-30c0f1989d2b-Group%201.svg"
                                     alt="machine-learning" width="70px" height="70px"></div>
-                            <h5 class="training-program-card-one-heading"><br> MEA(R)N Stack Web Development Expert -
+                            <h5 class="training-program-card-one-heading"><br> <br>MEA(R)N Stack Web Development Expert -
                                 Angular &amp; React</h5>
                             <p class="card-text training-program-card-one-text  text-muted"><br> HTML, CSS, Bootstrap,
                                 Javascript, Typescript, Git, Angular, React.js, Node.js, Express.js &amp;
@@ -411,7 +431,7 @@
                                 (Offline
                                 &amp;
                                 Online) <br><span class="sub-date-courseList">Calicut : </span>Oct 18th 2023
-                                (Offline) <span class="training-program-card-title"><br> Duration:</span> 6 Months, 5
+                                (Offline) <span class="training-program-card-title"><br> Duration:</span><br> 6 Months, 5
                                 Days a Week, 1.5-2 Hours/day<span class="training-program-card-title"><br> Course
                                     Fee: <br></span> <span class="sub-date-courseList">Fees (EMI Mode) :
                                 </span>45000<br><span class="sub-date-courseList">Fees (One time Payment mode) :
